@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="anthonydavisimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anthonydavisimage1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kawhiraptors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kawhiraptors.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dotloadingicon_loadingscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dotloadingicon_loadingscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="basketballnets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\basketballnets.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jameshardenimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jameshardenimage2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stephencurryimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stephencurryimage2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donovandunk_dunkcalc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donovandunk_dunkcalc2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="draymondgreenimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\draymondgreenimage3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jimmybutler_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jimmybutler_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blakegriffinimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blakegriffinimage5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stephencurryimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stephencurryimage1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donovandunk_dunkcalc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donovandunk_dunkcalc.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blakegriffinimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blakegriffinimage3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demarcuscousins_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demarcuscousins_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karlanthonytownsimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karlanthonytownsimage1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="draymondgreenimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\draymondgreenimage2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="draymondgreenimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\draymondgreenimage4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lebronjames" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lebronjames.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jamesharden_playerseleted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jamesharden_playerseleted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kdclutch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kdclutch.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karltowns_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karltowns_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karlanthonytownsimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karlanthonytownsimage5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klaythompsonimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klaythompsonimage3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finalproject_loadingscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finalproject_loadingscreen (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jimmybutlerimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jimmybutlerimage2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stephencurryimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stephencurryimage5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kevindurantimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kevindurantimage1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jrueholidayimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jrueholidayimage2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anthonydavisimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anthonydavisimage3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knicksbench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\knicksbench.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anthonydavisimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anthonydavisimage5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kawhileonardimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kawhileonardimage1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nikolajokicimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nikolajokicimage2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nikolajokicimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nikolajokicimage4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anthonydavisimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anthonydavisimage2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anthonydavisimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anthonydavisimage4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kawhileonardimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kawhileonardimage2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrispaulimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrispaulimage2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lebronjames_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lebronjames_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrispaulimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrispaulimage4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dunkCalculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dunkCalculator.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hardenmad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hardenmad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jrueholidayimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jrueholidayimage4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stephencurryimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stephencurryimage4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MJ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lebronjamesimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lebronjamesimage5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrispaulimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrispaulimage3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jameshardenimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jameshardenimage4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kevindurantimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kevindurantimage5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrispaulimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrispaulimage5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jrueholidayimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jrueholidayimage3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kevindurantimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kevindurantimage3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demarcuscousinsimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demarcuscousinsimage1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jrueholidayimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jrueholidayimage5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lebronjamesimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lebronjamesimage4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nikolajokicimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nikolajokicimage3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blakegriffin_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blakegriffin_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jimmybutlerimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jimmybutlerimage1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lebronjamesimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lebronjamesimage1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demarcuscousinsimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demarcuscousinsimage5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nikolajokicimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nikolajokicimage1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="draymondgreen_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\draymondgreen_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lebronjamesmissesdunk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lebronjamesmissesdunk.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dfox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dfox.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gswchampionship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gswchampionship.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kevindurant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kevindurant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kawhileonard_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kawhileonard_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klaythompsonimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klaythompsonimage4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="curryshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\curryshot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klaythompsonimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klaythompsonimage2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="liquidloadingicon_loadingscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\liquidloadingicon_loadingscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kawhileonardimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kawhileonardimage5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jameshardenimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jameshardenimage1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exitbuttonimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exitbuttonimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jimmybutlerimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jimmybutlerimage3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karlanthonytownsimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karlanthonytownsimage3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klaythompson_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klaythompson_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exitbuttonimag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exitbuttonimag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lebronjamesimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lebronjamesimage2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kobebryant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kobebryant.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blakegriffindunk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blakegriffindunk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donovanactuallydunks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donovanactuallydunks.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boban" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boban.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donovandunk_dunkcalc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donovandunk_dunkcalc1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lebronjamesimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lebronjamesimage3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stephcurry_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stephcurry_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boogiecousins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boogiecousins.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jimmybutlerimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jimmybutlerimage5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demarcuscousinsimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demarcuscousinsimage2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jameshardenimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jameshardenimage5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demarcuscousinsimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demarcuscousinsimage4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrispaul_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrispaul_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klaythompsonimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klaythompsonimage5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karlanthonytownsimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karlanthonytownsimage4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donovandunk3_dunkcalc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donovandunk3_dunkcalc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anthonydavis_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anthonydavis_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="karlanthonytownsimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\karlanthonytownsimage2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="draymondgreenimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\draymondgreenimage1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kawhileonardimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kawhileonardimage4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kawhileonardimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kawhileonardimage3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="draymondgreenimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\draymondgreenimage5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jameshardenimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jameshardenimage3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nikolajokicimage5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nikolajokicimage5.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blakegriffinimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blakegriffinimage1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="klaythompsonimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\klaythompsonimage1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nikolajokic_playersselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nikolajokic_playersselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jimmybutlerimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jimmybutlerimage4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demarcuscousinsimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demarcuscousinsimage3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blakegriffinimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blakegriffinimage4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrispaulimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrispaulimage1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blakegriffinimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blakegriffinimage2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kevindurant_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kevindurant_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greywheel_loadingscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greywheel_loadingscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jrueholidayimage1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jrueholidayimage1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kevindurantimage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kevindurantimage2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jrueholiday_playerselected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jrueholiday_playerselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stephencurryimage3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stephencurryimage3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kevindurantimage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kevindurantimage4.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joelembiidtrashtalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joelembiidtrashtalk.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="anthonydavis_playerselected1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anthonydavis_playerselected1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blakegriffin_playerselected1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blakegriffin_playerselected1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chrispaul_playerselected1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chrispaul_playerselected1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demarcuscousins_playerselected1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\demarcuscousins_playerselected1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="draymondgreen_playerselected1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\draymondgreen_playerselected1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jamesharden_playerseleted1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jamesharden_playerseleted1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jimmybutler_playerselected1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jimmybutler_playerselected1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TallMen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TallMen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

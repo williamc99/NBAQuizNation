@@ -1,0 +1,661 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MehtaT_ChuiW_VasudeoJ_FinalProject
+</name>
+</assembly>
+<members>
+<member name="T:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.anthonydavis_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.anthonydavis_playerselected1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.anthonydavisimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.anthonydavisimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.anthonydavisimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.anthonydavisimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.anthonydavisimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.basketballnets">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.blakegriffin_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.blakegriffin_playerselected1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.blakegriffindunk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.blakegriffinimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.blakegriffinimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.blakegriffinimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.blakegriffinimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.blakegriffinimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.boban">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.boogiecousins">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.chrispaul_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.chrispaul_playerselected1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.chrispaulimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.chrispaulimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.chrispaulimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.chrispaulimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.chrispaulimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.curryshot">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.demarcuscousins_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.demarcuscousins_playerselected1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.demarcuscousinsimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.demarcuscousinsimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.demarcuscousinsimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.demarcuscousinsimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.demarcuscousinsimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.dfox">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.donovanactuallydunks">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.donovandunk_dunkcalc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.donovandunk_dunkcalc1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.donovandunk_dunkcalc2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.donovandunk3_dunkcalc">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.dotloadingicon_loadingscreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.draymondgreen_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.draymondgreen_playerselected1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.draymondgreenimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.draymondgreenimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.draymondgreenimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.draymondgreenimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.draymondgreenimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.dunkCalculator">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.exitbuttonimag">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.exitbuttonimage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.finalproject_loadingscreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.greywheel_loadingscreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.gswchampionship">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.hardenmad">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jamesharden_playerseleted">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jamesharden_playerseleted1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jameshardenimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jameshardenimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jameshardenimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jameshardenimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jameshardenimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jimmybutler_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jimmybutler_playerselected1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jimmybutlerimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jimmybutlerimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jimmybutlerimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jimmybutlerimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jimmybutlerimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.joelembiidtrashtalk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jrueholiday_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jrueholidayimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jrueholidayimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jrueholidayimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jrueholidayimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.jrueholidayimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.karlanthonytownsimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.karlanthonytownsimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.karlanthonytownsimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.karlanthonytownsimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.karlanthonytownsimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.karltowns_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kawhileonard_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kawhileonardimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kawhileonardimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kawhileonardimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kawhileonardimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kawhileonardimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kawhiraptors">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kdclutch">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kevindurant">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kevindurant_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kevindurantimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kevindurantimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kevindurantimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kevindurantimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kevindurantimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.klaythompson_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.klaythompsonimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.klaythompsonimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.klaythompsonimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.klaythompsonimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.klaythompsonimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.knicksbench">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.kobebryant">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.lebronjames">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.lebronjames_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.lebronjamesimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.lebronjamesimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.lebronjamesimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.lebronjamesimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.lebronjamesimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.lebronjamesmissesdunk">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.liquidloadingicon_loadingscreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.MJ">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.nikolajokic_playersselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.nikolajokicimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.nikolajokicimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.nikolajokicimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.nikolajokicimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.nikolajokicimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.stephcurry_playerselected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.stephencurryimage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.stephencurryimage2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.stephencurryimage3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.stephencurryimage4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.stephencurryimage5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:MehtaT_ChuiW_VasudeoJ_FinalProject.My.Resources.Resources.TallMen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

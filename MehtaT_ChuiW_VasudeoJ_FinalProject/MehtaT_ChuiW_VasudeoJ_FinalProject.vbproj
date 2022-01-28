@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{25F70DC2-3E40-4132-BAC7-D463402CF759}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MehtaT_ChuiW_VasudeoJ_FinalProject.My.MyApplication</StartupObject>
+    <RootNamespace>MehtaT_ChuiW_VasudeoJ_FinalProject</RootNamespace>
+    <AssemblyName>MehtaT_ChuiW_VasudeoJ_FinalProject</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MehtaT_ChuiW_VasudeoJ_FinalProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MehtaT_ChuiW_VasudeoJ_FinalProject.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>nbaicon_5pz_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmJeetPosition.designer.vb">
+      <DependentUpon>frmJeetPosition.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJeetPosition.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainTegh1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainTegh1.Designer.vb">
+      <DependentUpon>frmMainTegh1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlayerResultsTegh3.Designer.vb">
+      <DependentUpon>frmPlayerResultsTegh3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayerResultsTegh3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlayerTegh2.Designer.vb">
+      <DependentUpon>frmPlayerTegh2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlayerTegh2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWilliamCanDunk.designer.vb">
+      <DependentUpon>frmWilliamCanDunk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWilliamCanDunk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWilliamCannotDunk.designer.vb">
+      <DependentUpon>frmWilliamCannotDunk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWilliamCannotDunk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWilliamDunkCalc.designer.vb">
+      <DependentUpon>frmWilliamDunkCalc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWilliamDunkCalc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWilliamHighScores.designer.vb">
+      <DependentUpon>frmWilliamHighScores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWilliamHighScores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWilliamLoadingScreen.designer.vb">
+      <DependentUpon>frmWilliamLoadingScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWilliamLoadingScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWilliamSnapshot.designer.vb">
+      <DependentUpon>frmWilliamSnapshot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWilliamSnapshot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWilliamSnapshotResult.designer.vb">
+      <DependentUpon>frmWilliamSnapshotResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWilliamSnapshotResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmJeetPosition.resx">
+      <DependentUpon>frmJeetPosition.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainTegh1.resx">
+      <DependentUpon>frmMainTegh1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlayerResultsTegh3.resx">
+      <DependentUpon>frmPlayerResultsTegh3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlayerTegh2.resx">
+      <DependentUpon>frmPlayerTegh2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWilliamCanDunk.resx">
+      <DependentUpon>frmWilliamCanDunk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWilliamCannotDunk.resx">
+      <DependentUpon>frmWilliamCannotDunk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWilliamDunkCalc.resx">
+      <DependentUpon>frmWilliamDunkCalc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWilliamHighScores.resx">
+      <DependentUpon>frmWilliamHighScores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWilliamLoadingScreen.resx">
+      <DependentUpon>frmWilliamLoadingScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWilliamSnapshot.resx">
+      <DependentUpon>frmWilliamSnapshot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWilliamSnapshotResult.resx">
+      <DependentUpon>frmWilliamSnapshotResult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebronjames.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kevinDurant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dunkCalculator.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kobebryant.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basketballnets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawhiraptors.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boban.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boogiecousins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\curryshot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hardenmad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joelembiidtrashtalk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kdclutch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knicksbench.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MJ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gswchampionship.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blakegriffindunk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrispaul_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jrueholiday_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stephcurry_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jamesharden_playerseleted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jimmybutler_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaythompson_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawhileonard_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kevindurant_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebronjames_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anthonydavis_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blakegriffin_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draymondgreen_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demarcuscousins_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karltowns_playerselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nikolajokic_playersselected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dotloadingicon_loadingscreen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalproject_loadingscreen %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greywheel_loadingscreen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\liquidloadingicon_loadingscreen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donovanactuallydunks.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donovandunk_dunkcalc.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donovandunk_dunkcalc1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donovandunk_dunkcalc2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donovandunk3_dunkcalc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitbuttonimag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitbuttonimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebronjamesmissesdunk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anthonydavisimage1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anthonydavisimage2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anthonydavisimage3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anthonydavisimage4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anthonydavisimage5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blakegriffinimage1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blakegriffinimage2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blakegriffinimage3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blakegriffinimage4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blakegriffinimage5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrispaulimage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrispaulimage2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrispaulimage3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrispaulimage4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrispaulimage5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demarcuscousinsimage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demarcuscousinsimage2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demarcuscousinsimage3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demarcuscousinsimage4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demarcuscousinsimage5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draymondgreenimage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draymondgreenimage2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draymondgreenimage3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draymondgreenimage4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draymondgreenimage5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jameshardenimage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jameshardenimage2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jameshardenimage3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jameshardenimage4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jameshardenimage5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jimmybutlerimage1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jimmybutlerimage2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jimmybutlerimage3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jimmybutlerimage4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jimmybutlerimage5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jrueholidayimage1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jrueholidayimage2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jrueholidayimage3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jrueholidayimage4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jrueholidayimage5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karlanthonytownsimage1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karlanthonytownsimage2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karlanthonytownsimage3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karlanthonytownsimage4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karlanthonytownsimage5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawhileonardimage1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawhileonardimage2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawhileonardimage3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawhileonardimage4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawhileonardimage5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kevindurantimage1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kevindurantimage2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kevindurantimage3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kevindurantimage4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kevindurantimage5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaythompsonimage1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaythompsonimage2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaythompsonimage3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaythompsonimage4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\klaythompsonimage5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebronjamesimage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebronjamesimage2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebronjamesimage3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebronjamesimage4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lebronjamesimage5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nikolajokicimage1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nikolajokicimage2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nikolajokicimage3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nikolajokicimage4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nikolajokicimage5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stephencurryimage1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stephencurryimage2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stephencurryimage3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stephencurryimage4.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stephencurryimage5.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anthonydavis_playerselected1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blakegriffin_playerselected1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chrispaul_playerselected1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demarcuscousins_playerselected1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draymondgreen_playerselected1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jamesharden_playerseleted1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jimmybutler_playerselected1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TallMen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nbaicon_5pz_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
